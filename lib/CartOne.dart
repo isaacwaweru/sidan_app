@@ -131,7 +131,7 @@ class _CartOneState extends State<CartOne> {
                                             ],
                                           ),
                                         ),
-                                        SizedBox(width: 6,),
+                                        SizedBox(width: 6,) ,
                                         Text(item['name']),
                                         Row(
                                           children: [
@@ -139,7 +139,9 @@ class _CartOneState extends State<CartOne> {
                                                 height: 25,
                                                 width: 25,
                                                 child: RawMaterialButton(
-                                                  onPressed: () {},
+                                                  onPressed: () {
+
+                                                  },
                                                   elevation: 0,
                                                   fillColor: Color(0xffFFA451).withOpacity(0.5),
                                                   child: Text(
@@ -167,7 +169,9 @@ class _CartOneState extends State<CartOne> {
                                               child: Padding(
                                                   padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                                                   child: RawMaterialButton(
-                                                    onPressed: () {},
+                                                    onPressed: () {
+                                                      
+                                                    },
                                                     elevation: 0,
                                                     fillColor: Color(0xffFFA451).withOpacity(0.5),
                                                     child: Text(
@@ -197,18 +201,6 @@ class _CartOneState extends State<CartOne> {
                                       ],
                                     ),
                                   )
-                                      // ListTile(
-                                      // title: Text(item['price']),
-                                      // subtitle: FlatButton(
-                                      //
-                                      //     child: Column(
-                                      //       children: [
-                                      //         Text(item['name']),
-                                      //         Image.network(item['icon'])
-                                      //       ],
-                                      //     )
-                                      // )
-                                      // )
                                   )
                                       .toList(),
                                 ),
